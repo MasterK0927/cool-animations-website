@@ -961,7 +961,7 @@
         padding: 0px;
         justify-content: center;
         align-items: center;
-        width: 412px;
+        width: 353.5px;
         box-shadow: 2px 2px 4px black;
         background: linear-gradient(45deg, #685734, #685734be, #6857347c);
     }
@@ -982,7 +982,7 @@
     .main-box{
         margin: 1rem 0rem;
         flex-direction: column;
-        width: 412px;
+        width: 353.5px;
         height: 600px;
         gap: 2.8rem;
         padding-bottom: 0;
@@ -1059,7 +1059,7 @@
         left: 16em;
     }
     .box-1{
-        width: 412px;
+        width: 353.5px;
         padding-top: 10px;
     }
     .box-1 h1{
@@ -1152,13 +1152,13 @@
         height: auto;
         margin-top: 0;
         padding-top: 20px;
-        width: 412px;
+        width: 353.5px;
         gap: 5px;
         padding-bottom: 80px;
     }
     .left-sub-box2{
         gap: 25px;
-        width: 412px;
+        width: 353.5px;
         padding: 0 10px;
 
     }
@@ -1198,7 +1198,7 @@
     .sub-footer{
         flex-direction: column;
         height: auto;
-        width: 412px;
+        width: 353.5px;
         padding: 20px 0;
     }
     .intro-card{
@@ -1222,7 +1222,7 @@
         font: size 0.8rem ;
     }
     .footer{
-        width: 412px;
+        width: 353.5px;
         height: 20vh;
         padding: 20px;
     }
