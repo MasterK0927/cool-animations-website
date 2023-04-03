@@ -1070,11 +1070,11 @@
         padding-bottom: 40px;
     }
     .image-box{
-        background-size: 110% 20vh;
+        background-size: 110% 25vh;
         background-repeat: no-repeat;
         background-position: center;
         width: 90%;
-        height: 20vh;
+        height: 25vh;
     }
     .image-box-content{
         gap: 10px;
@@ -1113,12 +1113,13 @@
     }
     .ib::before {
         width: 78%;
-        height: 20vh;
-        top: 98.25vh;
-        left: 4vw;
+        height: 25vh;
+        top: 108.25vh;
+        left: 4.4vw;
     }
     .ib:hover::after{
         left: 48vw;
+        top: 112.25vh;
     }
     .ib2{
         margin-left: 5%;
@@ -1138,14 +1139,14 @@
     }
     .ib2::before {
         width: 78%;
-        height: 20vh;
-        top: 128.2vh;
-        left: 4vw;
+        height: 25vh;
+        top: 148.2vh;
+        left: 4.4vw;
         transform-origin: left;
     }
     .ib2:hover::after{
-        left: 48vw;
-        top: 139vh ;
+        left: 50vw;
+        top: 134vh ;
     }
     .box-2{
         flex-direction: column;
@@ -1186,7 +1187,7 @@
         height: 50px;
     }
     .box-2 .faded-text{
-        top: 251.35vh;
+        top: 261.35vh;
         left: 39vw;
         font-size: 5rem;
     }
@@ -1242,9 +1243,9 @@
         gap: 20px;
     }
     .footer .faded-text{
-        top: 406.4vh;
-        font-size: 45px;
-        left: 8vw;
+        top: 416.4vh;
+        font-size: 35px;
+        left: 10vw;
 
     }
 }
