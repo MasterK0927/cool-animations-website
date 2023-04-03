@@ -33,7 +33,7 @@
 }
 .name{
     font-size: 3.2rem;
-    font-family: cursive;
+    font-family: monospace;
     font-weight: bold;
 }
 .n1{
@@ -966,7 +966,8 @@
         background: burlywood;
     }
     .name-box{
-        justify-content:left;
+        justify-content:center;
+        align-items:center;
         width: 250px;
     }
     .right-box{
@@ -974,6 +975,8 @@
     }
     .right-box a{
         color: black;
+        font-size: 1rem;
+        font-family: 'techentron-font';
     }
     .right-box a li{
         margin-right: 0;
