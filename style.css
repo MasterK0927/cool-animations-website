@@ -1131,7 +1131,7 @@
         font-size: 1.1rem;
     }
     .ibc2{
-        top: 150.8vh;
+        top: 149vh;
         left: 10vw;
     }
     .ibc2 p{
@@ -1143,7 +1143,7 @@
     .ib2::before {
         width: 94%;
         height: 25vh;
-        top: 145.4vh;
+        top: 146vh;
         left: 4.4vw;
         transform-origin: left;
     }
