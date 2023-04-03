@@ -472,7 +472,7 @@
     background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
     width: 75%;
     height: 60%;
-    top: 126.5vh;
+    top: 126.2vh;
     left: 5vw;
     z-index: 1;
     transform: scaleX(0);
@@ -520,7 +520,7 @@
     background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
     width: 75%;
     height: 60%;
-    top: 206.5vh;
+    top: 206.2vh;
     left: 20vw;
     z-index: 1;
     transform: scaleX(0);
@@ -690,7 +690,7 @@
     }
 }
 .box-2 .faded-text{
-    top: 364.3vh;
+    top: 364vh;
     left: 75.5vw;
     font-size: 9rem;
 }
