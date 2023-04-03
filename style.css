@@ -1117,7 +1117,7 @@
     .ib::before {
         width: 94%;
         height: 25vh;
-        top: 110.4vh;
+        top: 110.7vh;
         left: 4.4vw;
     }
     .ib:hover::after{
@@ -1131,7 +1131,7 @@
         font-size: 1.1rem;
     }
     .ibc2{
-        top: 150.5vh;
+        top: 150.8vh;
         left: 10vw;
     }
     .ibc2 p{
