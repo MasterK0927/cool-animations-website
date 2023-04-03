@@ -472,7 +472,7 @@
     background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
     width: 75%;
     height: 60%;
-    top: 127.5vh;
+    top: 126.5vh;
     left: 5vw;
     z-index: 1;
     transform: scaleX(0);
@@ -520,7 +520,7 @@
     background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
     width: 75%;
     height: 60%;
-    top: 207.5vh;
+    top: 206.5vh;
     left: 20vw;
     z-index: 1;
     transform: scaleX(0);
@@ -679,7 +679,7 @@
 }
 .icon:hover{
     transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    animation: jiggle 1s ease;
+    animation: jiggle 0.5s ease;
 }
 @keyframes jiggle{
     50%{
@@ -690,7 +690,7 @@
     }
 }
 .box-2 .faded-text{
-    top: 365.5vh;
+    top: 364.3vh;
     left: 75.5vw;
     font-size: 9rem;
 }
@@ -912,7 +912,7 @@
     animation: jiggle 0.2s ease;
 }
 .footer .faded-text{
-    top: 497.5vh;
+    top: 498.2vh;
     font-size: 6rem;
     color:#535c87;
     left: 15rem;
