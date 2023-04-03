@@ -1114,11 +1114,11 @@
     .ib::before {
         width: 94%;
         height: 25vh;
-        top: 112.25vh;
+        top: 111.4vh;
         left: 4.4vw;
     }
     .ib:hover::after{
-        left: 48vw;
+        left: 51vw;
         top: 123.25vh;
     }
     .ib2{
@@ -1140,12 +1140,12 @@
     .ib2::before {
         width: 94%;
         height: 25vh;
-        top: 148vh;
+        top: 144.5vh;
         left: 4.4vw;
         transform-origin: left;
     }
     .ib2:hover::after{
-        left: 50vw;
+        left: 53vw;
         top: 160vh ;
     }
     .box-2{
@@ -1192,8 +1192,8 @@
         font-size: 5rem;
     }
     .box-2::before{
-        top: 200vh ;
-        height: 94%;
+        top: 196vh ;
+        height: 96%;
     }
     
     .sub-footer{
@@ -1243,7 +1243,7 @@
         gap: 20px;
     }
     .footer .faded-text{
-        top: 445.4vh;
+        top: 450.4vh;
         font-size: 35px;
         left: 30vw;
 
