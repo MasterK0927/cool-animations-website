@@ -1087,7 +1087,7 @@
         height: 30px;
     }
     .image-box-heading{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     .image-box-content p{
         font-size: 0.5rem;
@@ -1097,7 +1097,7 @@
         height: 25px;
     }
     .ibc{
-        top: 100vh;
+        top: 105vh;
     }
     .rbutton{
         padding: 5px;
@@ -1127,7 +1127,7 @@
         font-size: 1.1rem;
     }
     .ibc2{
-        top: 130.5vh;
+        top: 134.5vh;
         left: 10vw;
     }
     .ibc2 p{
