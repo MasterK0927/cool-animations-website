@@ -1117,7 +1117,7 @@
     .ib::before {
         width: 94%;
         height: 25vh;
-        top: 111.4vh;
+        top: 110.4vh;
         left: 4.4vw;
     }
     .ib:hover::after{
@@ -1143,7 +1143,7 @@
     .ib2::before {
         width: 94%;
         height: 25vh;
-        top: 146.4vh;
+        top: 145.4vh;
         left: 4.4vw;
         transform-origin: left;
     }
@@ -1190,7 +1190,7 @@
         height: 50px;
     }
     .box-2 .faded-text{
-        top: 283vh;
+        top: 281.5vh;
         left: 39vw;
         font-size: 5rem;
     }
