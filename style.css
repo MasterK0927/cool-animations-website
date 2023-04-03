@@ -929,7 +929,7 @@
 
 /* Macbook Pro */
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 412px) {
     .faded-text{
         bottom: -52%;
     }
