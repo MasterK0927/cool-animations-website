@@ -1140,7 +1140,7 @@
     .ib2::before {
         width: 94%;
         height: 25vh;
-        top: 145.5vh;
+        top: 146vh;
         left: 4.4vw;
         transform-origin: left;
     }
@@ -1192,8 +1192,9 @@
         font-size: 5rem;
     }
     .box-2::before{
-        top: 194vh ;
-        height: 100%;
+        top: 190vh ;
+        height: 110%;
+        width:100%;
     }
     
     .sub-footer{
@@ -1243,7 +1244,7 @@
         gap: 20px;
     }
     .footer .faded-text{
-        top: 453.4vh;
+        top: 460.4vh;
         font-size: 35px;
         left: 25vw;
 
