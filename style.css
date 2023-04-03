@@ -963,7 +963,7 @@
         align-items: center;
         width: 409.5px;
         box-shadow: 2px 2px 4px black;
-        background: linear-gradient(45deg, #685734, #685734be, #6857347c);
+        background: #343d68;
     }
     .name-box{
         justify-content:left;
