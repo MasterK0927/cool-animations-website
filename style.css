@@ -694,7 +694,7 @@
     left: 75.5vw;
     font-size: 9rem;
 }
-.box-2::before{
+/* .box-2::before{
     content: "";
     position: absolute;
     background: linear-gradient(45deg, #685734, #685734be, #6857347c);
@@ -722,7 +722,7 @@
     font-weight: bold;
     z-index: 2;
     transform: scaleX(1);
-}
+} */
 
 /* box-2 ends here */
 /* contact-box begins here */
@@ -1191,12 +1191,6 @@
         left: 39vw;
         font-size: 5rem;
     }
-    .box-2::before{
-        top: 190vh ;
-        height: 110%;
-        width:409.5px;
-    }
-    
     .sub-footer{
         flex-direction: column;
         height: auto;
