@@ -33,7 +33,7 @@
 }
 .name{
     font-size: 3.2rem;
-    font-family: cursive;
+    font-family: monospace;
     font-weight: bold;
 }
 .n1{
@@ -88,7 +88,7 @@
         transform: translateY(0);
     }
     100%{
-        color: rgb(113, 67, 7);
+        color: red;
         transform: translateY(-10px);
     }
 }
@@ -472,7 +472,7 @@
     background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
     width: 75%;
     height: 60%;
-    top: 127.5vh;
+    top: 126.2vh;
     left: 5vw;
     z-index: 1;
     transform: scaleX(0);
@@ -520,7 +520,7 @@
     background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
     width: 75%;
     height: 60%;
-    top: 207.5vh;
+    top: 206.2vh;
     left: 20vw;
     z-index: 1;
     transform: scaleX(0);
@@ -679,7 +679,7 @@
 }
 .icon:hover{
     transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    animation: jiggle 1s ease;
+    animation: jiggle 0.5s ease;
 }
 @keyframes jiggle{
     50%{
@@ -690,11 +690,11 @@
     }
 }
 .box-2 .faded-text{
-    top: 365.5vh;
+    top: 364vh;
     left: 75.5vw;
     font-size: 9rem;
 }
-.box-2::before{
+/* .box-2::before{
     content: "";
     position: absolute;
     background: linear-gradient(45deg, #685734, #685734be, #6857347c);
@@ -722,7 +722,7 @@
     font-weight: bold;
     z-index: 2;
     transform: scaleX(1);
-}
+} */
 
 /* box-2 ends here */
 /* contact-box begins here */
@@ -912,7 +912,7 @@
     animation: jiggle 0.2s ease;
 }
 .footer .faded-text{
-    top: 497.5vh;
+    top: 496.2vh;
     font-size: 6rem;
     color:#535c87;
     left: 15rem;
@@ -961,19 +961,22 @@
         padding: 0px;
         justify-content: center;
         align-items: center;
-        width: 412px;
+        width: 409.5px;
         box-shadow: 2px 2px 4px black;
-        background: linear-gradient(45deg, #685734, #685734be, #6857347c);
+        background: burlywood;
     }
     .name-box{
-        justify-content:left;
+        justify-content:center;
+        align-items:center;
         width: 250px;
     }
     .right-box{
         gap: 20px;
     }
     .right-box a{
-        color: black;
+        color: white;
+        font-size: 1rem;
+        font-family: 'techentron-font';
     }
     .right-box a li{
         margin-right: 0;
@@ -982,7 +985,7 @@
     .main-box{
         margin: 1rem 0rem;
         flex-direction: column;
-        width: 412px;
+        width: 409.5px;
         height: 600px;
         gap: 2.8rem;
         padding-bottom: 0;
@@ -1059,7 +1062,7 @@
         left: 16em;
     }
     .box-1{
-        width: 412px;
+        width: 409.5px;
         padding-top: 10px;
     }
     .box-1 h1{
@@ -1070,11 +1073,11 @@
         padding-bottom: 40px;
     }
     .image-box{
-        background-size: 110% 20vh;
+        background-size: 110% 25vh;
         background-repeat: no-repeat;
         background-position: center;
         width: 90%;
-        height: 20vh;
+        height: 25vh;
     }
     .image-box-content{
         gap: 10px;
@@ -1087,7 +1090,7 @@
         height: 30px;
     }
     .image-box-heading{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     .image-box-content p{
         font-size: 0.5rem;
@@ -1097,7 +1100,7 @@
         height: 25px;
     }
     .ibc{
-        top: 100vh;
+        top: 113vh;
     }
     .rbutton{
         padding: 5px;
@@ -1112,13 +1115,14 @@
         box-shadow: 3px 3px 6px red, -1px -1px 2px red;
     }
     .ib::before {
-        width: 78%;
-        height: 20vh;
-        top: 98.25vh;
-        left: 4vw;
+        width: 94%;
+        height: 25vh;
+        top: 110.7vh;
+        left: 4.4vw;
     }
     .ib:hover::after{
-        left: 48vw;
+        left: 51vw;
+        top: 123.25vh;
     }
     .ib2{
         margin-left: 5%;
@@ -1127,7 +1131,7 @@
         font-size: 1.1rem;
     }
     .ibc2{
-        top: 130.5vh;
+        top: 149vh;
         left: 10vw;
     }
     .ibc2 p{
@@ -1137,28 +1141,28 @@
         box-shadow: 3px 3px 6px red, -1px -1px 2px red;
     }
     .ib2::before {
-        width: 78%;
-        height: 20vh;
-        top: 128.2vh;
-        left: 4vw;
+        width: 94%;
+        height: 25vh;
+        top: 146vh;
+        left: 4.4vw;
         transform-origin: left;
     }
     .ib2:hover::after{
-        left: 48vw;
-        top: 139vh ;
+        left: 53vw;
+        top: 160vh ;
     }
     .box-2{
         flex-direction: column;
         height: auto;
         margin-top: 0;
         padding-top: 20px;
-        width: 412px;
+        width: 409.5px;
         gap: 5px;
         padding-bottom: 80px;
     }
     .left-sub-box2{
         gap: 25px;
-        width: 412px;
+        width: 409.5px;
         padding: 0 10px;
 
     }
@@ -1186,19 +1190,14 @@
         height: 50px;
     }
     .box-2 .faded-text{
-        top: 251.35vh;
+        top: 281.5vh;
         left: 39vw;
         font-size: 5rem;
     }
-    .box-2::before{
-        top: 165vh ;
-        height: 94%;
-    }
-    
     .sub-footer{
         flex-direction: column;
         height: auto;
-        width: 412px;
+        width: 409.5px;
         padding: 20px 0;
     }
     .intro-card{
@@ -1222,7 +1221,7 @@
         font: size 0.8rem ;
     }
     .footer{
-        width: 412px;
+        width: 409.5px;
         height: 20vh;
         padding: 20px;
     }
@@ -1242,9 +1241,9 @@
         gap: 20px;
     }
     .footer .faded-text{
-        top: 406.4vh;
-        font-size: 45px;
-        left: 8vw;
+        top: 460vh;
+        font-size: 35px;
+        left: 25vw;
 
     }
 }
